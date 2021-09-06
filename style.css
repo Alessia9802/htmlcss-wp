@@ -15,11 +15,39 @@ body {
   clear: both;
 }
 
+/* header */
+
 .debug > header {
   background-color: #e579e6;
   width: 100%;
   height: 80px;
   margin-top: 10px;
+}
+
+.logo_Neori {
+  width: 117px;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 13px 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .debug > main .yellow {
