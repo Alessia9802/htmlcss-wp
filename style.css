@@ -7,6 +7,7 @@
 body {
   width: 50%;
   margin: auto;
+  font-family: "Montserrat", sans-serif;
 }
 
 .clearfix::after {
@@ -54,7 +55,7 @@ li a {
 
 /* main */
 
-.debug > .banner .overlay {
+.debug > .yellow {
   background-color: #e1d67a;
   width: 100%;
   height: 390px;
@@ -63,7 +64,47 @@ li a {
   border-radius: 0.4rem;
 }
 
+.banner {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 0.5rem;
+}
+
+.yellow {
+  position: relative;
+  width: 100%;
+  float: left;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  position: absolute;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  top: 240px;
+  left: 10;
+}
+
+h4 {
+  position: absolute;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  top: 300px;
+  left: 10;
+}
+
+/* sezione azzurra */
+
 .debug > main .lightblue {
+  background-color: #abcfe7;
+  width: 100%;
+  height: 40px;
+}
+
+.lightblue {
   background-color: #abcfe7;
   width: 100%;
   height: 40px;
@@ -105,7 +146,7 @@ li a {
 
 .debug > main .contenuto {
   background-color: #abcfe7;
-  width: 464px;
+  width: 455px;
   height: 280px;
   float: left;
 }
