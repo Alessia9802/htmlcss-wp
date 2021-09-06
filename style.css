@@ -100,6 +100,22 @@ h1 {
   float: left;
 }
 
+.plant {
+  height: 140px;
+  width: 100%;
+  border-radius: 0.4rem;
+  background-color: rgba(172, 172, 172, 0.61);
+  background-blend-mode: multiply;
+}
+
+.titoli {
+  font-weight: bold;
+}
+
+p {
+  font-size: 12px;
+}
+
 .debug > main .down_1 {
   background-color: #abcfe7;
   width: 20%;
