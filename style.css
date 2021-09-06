@@ -89,14 +89,14 @@ h4 {
   height: 50px;
 }
 
-h1 {
+.debug > h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .debug > main .down {
   background-color: #abcfe7;
   width: 20%;
-  height: 280px;
+  height: 380px;
   float: left;
 }
 
@@ -104,8 +104,10 @@ h1 {
   height: 140px;
   width: 100%;
   border-radius: 0.4rem;
-  background-color: rgba(172, 172, 172, 0.61);
   background-blend-mode: multiply;
+  object-fit: cover;
+  color: rgb(77, 77, 77);
+  filter: opacity(70%);
 }
 
 .titoli {
@@ -113,20 +115,20 @@ h1 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .debug > main .down_1 {
   background-color: #abcfe7;
   width: 20%;
-  height: 280px;
+  height: 380px;
   float: left;
 }
 
 .debug > main .contenuto {
   background-color: #abcfe7;
   width: 58%;
-  height: 280px;
+  height: 380px;
   float: left;
   margin-left: 1%;
   margin-right: 1%;
@@ -136,18 +138,22 @@ p {
   height: 140px;
   width: 100%;
   border-radius: 0.4rem;
-  background-color: rgba(172, 172, 172, 0.61);
   background-blend-mode: multiply;
   background-position: center;
+  object-fit: cover;
+  color: rgb(77, 77, 77);
+  filter: opacity(70%);
 }
 
 .people {
   height: 140px;
   width: 100%;
   border-radius: 0.4rem;
-  background-color: rgba(172, 172, 172, 0.61);
   background-blend-mode: multiply;
   background-position: center;
+  object-fit: cover;
+  color: rgb(77, 77, 77);
+  filter: opacity(70%);
 }
 
 .debug > footer .violet {
